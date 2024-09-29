@@ -322,10 +322,12 @@ hr {
 /* Media Queries */
 
 @media screen and (max-width: 770px) {
-  .header-top, .box1, .box2, .main-bottom  {
+  .header-top,
+  .box1,
+  .box2,
+  .main-bottom {
     display: flex;
     flex-direction: column;
-    
   }
 
   .section3 {
@@ -336,9 +338,7 @@ hr {
 
   .section2 {
     width: 85%;
-}
-
-
+  }
 }
 /* @media screen and (max-width: 770px) {
   .header-top,
